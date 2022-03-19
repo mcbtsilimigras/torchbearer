@@ -18,12 +18,25 @@ Dice Rolls
 
 Magic
 - 
+Characters
+-
+- Add characters from the Scavenger's Supplement
+- Add characters from the Lore Master's Manual
+- Add "stock" as an option
+- Adding in "troll changeling" as a stock option
+- Include "any one weapon for theurge"
 
 Conflict
 -
 - Add ability to remove participants
 - Add ability to select Boss Monster
 - Add "Other" conflict setup
+
+Light 
+-
+- Consider adding in magical spell or item light sources
+- Moonlight or some other natural source
+- Does light include the bearer and who is in the light?
 
 Grind
 -

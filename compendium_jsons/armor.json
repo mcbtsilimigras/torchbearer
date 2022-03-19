@@ -1,9 +1,9 @@
 [
   {
-    "name": "Chainmail Armor",
+    "name": "Chain",
     "type": "Item",
     "data": {
-      "name": "Chainmail Armor",
+      "name": "Chain",
       "equip": "Torso",
       "carried": "Worn",
       "slots": 1,
@@ -92,10 +92,10 @@
     }
   },
   {
-    "name": "Leather Armor",
+    "name": "Leather",
     "type": "Item",
     "data": {
-      "name": "Leather Armor",
+      "name": "Leather",
       "equip": "Torso",
       "carried": "Worn",
       "slots": 1,
@@ -138,10 +138,10 @@
     }
   },
   {
-    "name": "Plate Armor",
+    "name": "Plate",
     "type": "Item",
     "data": {
-      "name": "Plate Armor",
+      "name": "Plate",
       "equip": "Torso",
       "carried": "Worn",
       "slots": 2,

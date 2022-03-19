@@ -123,7 +123,7 @@
             "max": 10,
             "pass": 0,
             "fail": 0,
-            "help": "Alchemist, Smith, Laborer",
+            "help": "Smith, Laborer",
             "bl": "H"
           },
           "Beggar": {
@@ -168,7 +168,7 @@
             "max": 10,
             "pass": 0,
             "fail": 0,
-            "help": "Steward",
+            "help": "Steward, Orator",
             "bl": "W"
           },
           "Cook": {
@@ -195,7 +195,7 @@
             "max": 10,
             "pass": 0,
             "fail": 0,
-            "help": "Criminal, Laborer, Scout, Survivalist",
+            "help": "Sapper, Survivalist",
             "bl": "H"
           },
           "Enchanter": {
@@ -213,8 +213,17 @@
             "max": 10,
             "pass": 0,
             "fail": 0,
-            "help": "Fighter",
+            "help": "Hunter",
             "bl": "H"
+          },
+          "Fisher": {
+            "name": "Fisher",
+            "rating": 0,
+            "max": 10,
+            "pass": 0,
+            "fail": 0,
+            "help": "Laborer", "Sailor",
+            "bl": "W"
           },
           "Haggler": {
             "name": "Haggler",
@@ -222,7 +231,7 @@
             "max": 10,
             "pass": 0,
             "fail": 0,
-            "help": "Persuader, Manipulator",
+            "help": "Manipulator",
             "bl": "W"
           },
           "Healer": {
@@ -231,7 +240,7 @@
             "max": 10,
             "pass": 0,
             "fail": 0,
-            "help": "Alchemist, Laborer",
+            "help": "Survivalist, Alchemist",
             "bl": "W"
           },
           "Hunter": {
@@ -243,13 +252,22 @@
             "help": "Survivalist, Laborer",
             "bl": "H"
           },
+          "Jeweler": {
+            "name": "Jeweler",
+            "rating": 0,
+            "max": 10,
+            "pass": 0,
+            "fail": 0,
+            "help": "Laborer, Alchemist",
+            "bl": "W"
+          },
           "Laborer": {
             "name": "Laborer",
             "rating": 0,
             "max": 10,
             "pass": 0,
             "fail": 0,
-            "help": "Laborer",
+            "help": "Peasant",
             "bl": "H"
           },
           "Loremaster": {
@@ -258,7 +276,7 @@
             "max": 10,
             "pass": 0,
             "fail": 0,
-            "help": "Scholar",
+            "help": "Arcanist, Theologian",
             "bl": "W"
           },
           "Manipulator": {
@@ -267,7 +285,7 @@
             "max": 10,
             "pass": 0,
             "fail": 0,
-            "help": "Persuader",
+            "help": "Haggler, Persuader",
             "bl": "W"
           },
           "Mentor": {
@@ -276,7 +294,7 @@
             "max": 10,
             "pass": 0,
             "fail": 0,
-            "help": "Skill taught",
+            "help": "Persuader",
             "bl": "W"
           },
           "Orator": {
@@ -294,7 +312,7 @@
             "max": 10,
             "pass": 0,
             "fail": 0,
-            "help": "Scout, Hunter",
+            "help": "Scout, Cartographer",
             "bl": "H"
           },
           "Peasant": {
@@ -303,7 +321,7 @@
             "max": 10,
             "pass": 0,
             "fail": 0,
-            "help": "Laborer, Survivalist",
+            "help": "Laborer",
             "bl": "H"
           },
           "Persuader": {
@@ -330,7 +348,7 @@
             "max": 10,
             "pass": 0,
             "fail": 0,
-            "help": "Ritualist",
+            "help": "Theologian",
             "bl": "W"
           },
           "Sailor": {
@@ -339,7 +357,16 @@
             "max": 10,
             "pass": 0,
             "fail": 0,
-            "help": "Laborer, Pathfinder, Survivalist",
+            "help": "Survivalist, Pathfinder",
+            "bl": "H"
+          },
+          "Sapper": {
+            "name": "Sapper",
+            "rating": 0,
+            "max": 10,
+            "pass": 0,
+            "fail": 0,
+            "help": "Alchemist, Laborer",
             "bl": "H"
           },
           "Scavenger": {
@@ -348,7 +375,7 @@
             "max": 10,
             "pass": 0,
             "fail": 0,
-            "help": "Scavenger, Scout",
+            "help": "Scout",
             "bl": "H"
           },
           "Scholar": {
@@ -375,7 +402,7 @@
             "max": 10,
             "pass": 0,
             "fail": 0,
-            "help": "Armorer, Laborer",
+            "help": "Laborer, Armorer",
             "bl": "H"
           },
           "Steward": {
@@ -384,7 +411,7 @@
             "max": 10,
             "pass": 0,
             "fail": 0,
-            "help": "Scholar, Orator, Theologian",
+            "help": "Scholar, Theologian",
             "bl": "W"
           },
           "Stonemason": {
@@ -402,7 +429,16 @@
             "max": 10,
             "pass": 0,
             "fail": 0,
-            "help": "Commander, Scholar, Cartographer",
+            "help": "Commander, Scholar, Steward",
+            "bl": "W"
+          },
+          "Summoner": {
+            "name": "Summoner",
+            "rating": 0,
+            "max": 10,
+            "pass": 0,
+            "fail": 0,
+            "help": "Lore Master, Scholar, Theologian",
             "bl": "W"
           },
           "Survivalist": {
@@ -411,7 +447,7 @@
             "max": 10,
             "pass": 0,
             "fail": 0,
-            "help": "Hunter, Laborer",
+            "help": "Peasant",
             "bl": "H"
           },
           "Tanner": {
@@ -420,7 +456,7 @@
             "max": 10,
             "pass": 0,
             "fail": 0,
-            "help": "Armorer, Laborer",
+            "help": "Laborer, Armorer",
             "bl": "H"
           },
           "Theologian": {
@@ -429,7 +465,7 @@
             "max": 10,
             "pass": 0,
             "fail": 0,
-            "help": "Scholar",
+            "help": "Scholar, Ritualist",
             "bl": "W"
           },
           "Weaver": {
@@ -438,7 +474,7 @@
             "max": 10,
             "pass": 0,
             "fail": 0,
-            "help": "Weaver, Laborer",
+            "help": "Laborer, Peasant",
             "bl": "W"
           }
         },
@@ -655,22 +691,22 @@
       },
       "classes": {
         "outcast": {
-          "value": "Dwarf Adventurer"
+          "value": "Outcast"
         },
         "ranger": {
-          "value": "Elf Ranger"
+          "value": "Ranger"
         },
         "burglar": {
-          "value": "Halfling Burglar"
+          "value": "Burglar"
         },
         "theurge": {
-          "value": "Human Theurge"
+          "value": "Theurge"
         },
         "magician": {
-          "value": "Human Magician"
+          "value": "Magician"
         },
         "warrior": {
-          "value": "Human Warrior"
+          "value": "Warrior"
         }
       },
       "level": {
@@ -705,22 +741,22 @@
       },
       "classes": {
         "outcast": {
-          "value": "Dwarf Adventurer"
+          "value": "Outcast"
         },
         "ranger": {
-          "value": "Elf Ranger"
+          "value": "Ranger"
         },
         "burglar": {
-          "value": "Halfling Burglar"
+          "value": "Burglar"
         },
         "theurge": {
-          "value": "Human Theurge"
+          "value": "Theurge"
         },
         "magician": {
-          "value": "Human Magician"
+          "value": "Magician"
         },
         "warrior": {
-          "value": "Human Warrior"
+          "value": "Warrior"
         }
       },
       "level": {

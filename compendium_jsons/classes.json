@@ -1,51 +1,51 @@
 [
   {
-    "name": "Dwarf Adventurer",
+    "name": "Outcast",
     "type": "Class",
     "data": {
-      "name": "Dwarf Adventurer",
+      "name": "Outcast",
       "startingWill": 3,
       "startingHealth": 5,
       "startingSkills": {
         "Fighter": 4,
         "Dungeoneer": 3,
         "Armorer": 2,
-        "Laborer": 2,
+        "Sapper": 2,
         "Orator": 2,
         "Scout": 2
       },
       "startingTrait": "Born of Earth and Stone",
       "allowedWeapons": ["Except"],
-      "restrictedWeapons": ["Two-Handed Sword", "Bow", "Lance"],
+      "restrictedWeapons": ["Great Sword"],
       "allowedArmor": ["Any"]
     }
   },
   {
-    "name": "Elf Ranger",
+    "name": "Ranger",
     "type": "Class",
     "data": {
-      "name": "Elf Ranger",
+      "name": "Ranger",
       "startingWill": 4,
       "startingHealth": 4,
       "startingSkills": {
         "Fighter": 3,
-        "Arcanist": 3,
-        "Lore Master": 3,
-        "Scholar": 2,
-        "Scout": 2,
+        "Pathfinder": 3,
+        "Scout": 3,
+        "Hunter": 2,
+        "Lore Master": 2,
         "Survivalist": 2
       },
       "startingTrait": "First Born",
-      "allowedWeapons": ["Bow", "Sword", "Dagger"],
+      "allowedWeapons": ["Sword", "Spear", "Bow", "Dagger"],
       "restrictedWeapons": [],
-      "allowedArmor": ["Leather", "Chainmail Armor"]
+      "allowedArmor": ["Leather", "Chain", "Helmet"]
     }
   },
   {
-    "name": "Halfling Burglar",
+    "name": "Burglar",
     "type": "Class",
     "data": {
-      "name": "Halfling Burglar",
+      "name": "Burglar",
       "startingWill": 5,
       "startingHealth": 3,
       "startingSkills": {
@@ -58,35 +58,35 @@
       },
       "startingTrait": "Hidden Depths",
       "allowedWeapons": ["Except"],
-      "restrictedWeapons": ["Crossbow", "Two-Handed Sword", "Halberd", "Polearm", "Lance"],
-      "allowedArmor": ["Leather Armor", "Chainmail Armor", "Helmet", "Shield"]
+      "restrictedWeapons": ["Crossbow", "Great Sword", "Halberd", "Polearm"],
+      "allowedArmor": ["Leather", "Helmet", "Shield"]
     }
   },
   {
-    "name": "Human Cleric",
+    "name": "Theurge",
     "type": "Class",
     "data": {
-      "name": "Human Cleric",
+      "name": "Theurge",
       "startingWill": 0,
       "startingHealth": 0,
       "startingSkills": {
-        "Ritualist": 4,
-        "Theologian": 3,
-        "Fighter": 2,
+        "Fighter": 3,
+        "Ritualist": 3,
+        "Orator": 3,
         "Healer": 2,
-        "Scholar": 2
+        "Theologian": 2
       },
       "startingTrait": "Touched by the Gods",
       "allowedWeapons": ["Mace", "Flail", "Sling"],
       "restrictedWeapons": [],
-      "allowedArmor": ["Any"]
+      "allowedArmor": ["Shield"]
     }
   },
   {
-    "name": "Human Magician",
+    "name": "Magician",
     "type": "Class",
     "data": {
-      "name": "Human Magician",
+      "name": "Magician",
       "startingWill": 0,
       "startingHealth": 0,
       "startingSkills": {
@@ -97,16 +97,16 @@
         "Scholar": 2
       },
       "startingTrait": "Wizard's Sight",
-      "allowedWeapons": ["Dagger"],
+      "allowedWeapons": ["Dagger", "Staff"],
       "restrictedWeapons": [],
       "allowedArmor": ["None"]
     }
   },
   {
-    "name": "Human Warrior",
+    "name": "Warrior",
     "type": "Class",
     "data": {
-      "name": "Human Warrior",
+      "name": "Warrior",
       "startingWill": 0,
       "startingHealth": 0,
       "startingSkills": {
@@ -120,6 +120,189 @@
       "allowedWeapons": ["Any"],
       "restrictedWeapons": [],
       "allowedArmor": ["Any"]
+    }
+  },
+  {
+    "name": "Shaman",
+    "type": "Class",
+    "data": {
+      "name": "Shaman",
+      "startingWill": 0,
+      "startingHealth": 0,
+      "startingSkills": {
+        "Ritualist": 4,
+        "Theologian": 3,
+        "Fighter": 2,
+        "Healer": 2,
+        "Scavenger": 2
+      },
+      "startingTrait": "Between Two Worlds",
+      "allowedWeapons": ["Dagger", "Hand Axe", "Sling", "Staff"],
+      "restrictedWeapons": [],
+      "allowedArmor": ["Shield"]
+    }
+  },
+  {
+    "name": "Skald",
+    "type": "Class",
+    "data": {
+      "name": "Skald",
+      "startingWill": 0,
+      "startingHealth": 0,
+      "startingSkills": {
+        "Orator": 4,
+        "Manipulator": 3,
+        "Fighter": 2,
+        "Lore Master": 2,
+        "Scholar": 2
+      },
+      "startingTrait": "Voice of Thunder",
+      "allowedWeapons": ["Battle Axe", "Dagger", "Hand Axe", "Sling", "Spear", "Sword"],
+      "restrictedWeapons": [],
+      "allowedArmor": ["Leather", "Chain", "Helmet"]
+    }
+  },
+  {
+    "name": "Thief",
+    "type": "Class",
+    "data": {
+      "name": "Thief",
+      "startingWill": 0,
+      "startingHealth": 0,
+      "startingSkills": {
+        "Criminal": 3,
+        "Manipulator": 3,
+        "Scout": 3,
+        "Sapper": 2,
+        "Fighter": 2
+      },
+      "startingTrait": "Devil May Care",
+      "allowedWeapons": ["Bow", "Crossbow", "Dagger", "Hand Axe", "Mace", "Staff", "Sword"],
+      "restrictedWeapons": [],
+      "allowedArmor": ["Leather"]
+    }
+  },
+  {
+    "name": "Bounder",
+    "type": "Class",
+    "data": {
+      "name": "Bounder",
+      "startingWill": 4,
+      "startingHealth": 4,
+      "startingSkills": {
+        "Fighter": 3,
+        "Hunter": 3,
+        "Scout": 3,
+        "Cartographer": 2,
+        "Pathfinder": 2,
+        "Steward": 2
+      },
+      "startingTrait": "Hidden Depths",
+      "allowedWeapons": ["Any"],
+      "restrictedWeapons": ["Crossbow", "Great Sword", "Halberd", "Polearm"],
+      "allowedArmor": ["Leather", "Chain", "Helmet", "Shield"]
+    }
+  },
+  {
+    "name": "Dreamwalker",
+    "type": "Class",
+    "data": {
+      "name": "Dreamwalker",
+      "startingWill": 5,
+      "startingHealth": 3,
+      "startingSkills": {
+        "Arcanist": 3,
+        "Healer": 3,
+        "Jeweler": 3,
+        "Lore Master": 3,
+        "Scholar": 3
+      },
+      "startingTrait": "Dream-Haunted",
+      "allowedWeapons": ["Half-Moon Glaive"],
+      "restrictedWeapons": [],
+      "allowedArmor": ["None"]
+    }
+  },
+  {
+    "name": "Guide",
+    "type": "Class",
+    "data": {
+      "name": "Guide",
+      "startingWill": 4,
+      "startingHealth": 4,
+      "startingSkills": {
+        "Pathfinder": 3,
+        "Cook": 2,
+        "Hunter": 2,
+        "Peasant": 2,
+        "Sailor": 2,
+        "Scavenger": 2,
+        "Survivalist": 2
+      },
+      "startingTrait": "Hidden Depths",
+      "allowedWeapons": ["Dagger", "Spear", "Bow"],
+      "restrictedWeapons": [],
+      "allowedArmor": ["Leather"]
+    }
+  },
+  {
+    "name": "Noble Scion",
+    "type": "Class",
+    "data": {
+      "name": "Noble Scion",
+      "startingWill": 0,
+      "startingHealth": 0,
+      "startingSkills": {
+        "Rider": 4,
+        "Scholar": 2,
+        "Orator": 2,
+        "Steward": 2
+      },
+      "startingTrait": "Superior",
+      "allowedWeapons": ["Axe", "Crossbow", "Mace", "Sword"],
+      "restrictedWeapons": [],
+      "allowedArmor": ["Plate", "Shield", "Helmet"]
+    }
+  },
+  {
+    "name": "Sorcerer",
+    "type": "Class",
+    "data": {
+      "name": "Sorcerer",
+      "startingWill": 0,
+      "startingHealth": 0,
+      "startingSkills": {
+        "Summoner": 4,
+        "Haggler": 3,
+        "Lore Master": 2,
+        "Scholar": 2,
+        "Theologian": 2
+      },
+      "startingTrait": "Colossal Pride",
+      "allowedWeapons": ["Dagger", "Staff"],
+      "restrictedWeapons": [],
+      "allowedArmor": ["None"]
+    }
+  },
+  {
+    "name": "Stoneteller",
+    "type": "Class",
+    "data": {
+      "name": "Stoneteller",
+      "startingWill": 4,
+      "startingHealth": 4,
+      "startingSkills": {
+        "Dungeoneer": 3,
+        "Fighter": 3,
+        "Ritualist": 3,
+        "Orator": 2,
+        "Smith": 2,
+        "Stonemason": 2
+      },
+      "startingTrait": "Born of Earh and Stone",
+      "allowedWeapons": ["Staff", "Sling", "Mace", "Flail", "Warhammer", "Maul"],
+      "restrictedWeapons": [],
+      "allowedArmor": ["Chain"]
     }
   }
 ]
