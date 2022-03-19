@@ -87,8 +87,8 @@
   "gridUnits": "ft",
   "primaryTokenAttribute": "health",
   "secondaryTokenAttribute": "power",
-  "url": "https://github.com/lupinelegend/torchbearer",
-  "manifest": "https://raw.githubusercontent.com/lupinelegend/torchbearer/1.1.0/system.json",
-  "download": "https://github.com/lupinelegend/torchbearer/releases/download/1.1.0/torchbearer-foundryvtt-1.1.0.zip",
+  "url": "https://github.com/mcbtsilimigras/torchbearer",
+  "manifest": "https://raw.githubusercontent.com/mcbtsilimigras/torchbearer/1.1.0/system.json",
+  "download": "https://github.com/mcbtsilimigras/torchbearer/releases/download/1.1.0/torchbearer-foundryvtt-1.1.0.zip",
   "license": "LICENSE.txt"
 }
